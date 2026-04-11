@@ -1,0 +1,46 @@
+:root {
+  --primary-red: #d32f2f;
+  --text-black: #000000;
+  --text-gray: #757575;
+  --border-gray: #e0e0e0;
+  --bg-white: #ffffff;
+  --link-cyan: #80deea;
+
+  --font-primary: "YourGeometricFont", sans-serif;
+
+  --space-xs: 4px;
+  --space-s: 8px;
+  --space-m: 16px;
+  --space-l: 24px;
+  --space-xl: 32px;
+  --space-xxl: 64px;
+
+  --border-radius-pill: 50px;
+  --border-radius-field: 4px;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
